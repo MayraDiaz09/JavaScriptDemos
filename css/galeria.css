@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 10px solid rgb(19, 236, 120);
+  background-color: #000000;
+}
+
+#image {
+  background-image: url('../imagenes/gato1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: rgb(19, 236, 120);
+  width: 575px;
+  height: 950px;
+  margin: 20px auto 25px;
+  text-align: center;
+  text-box: center;
+  display: flex;
+  border: 10px solid rgb(19, 236, 120);
+  line-height: 650px;
+  color: #FFFFFF;
+  font-size: 150%;
+  border: 10px solid rgb(19, 236, 120);
+}
+
+.container-galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  padding: 20px;
+}
+
+.preview {
+  width: 50%;
+  height: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  border: 5px solid rgb(19, 236, 120);
+}
+
+
+.preview:focus {
+  box-shadow: 0 0 0 5px red;
+}
+h1 {
+  text-align: center;
+  color: rgb(19, 236, 120);
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 200px;
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+  display: inline;
+}
